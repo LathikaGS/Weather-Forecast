@@ -41,15 +41,6 @@ The confusion matrix of this model is shown below:
 - Visual Crossing Weather API
 - Pandas, NumPy, Matplotlib
 
-## Files Required to Run
-
-- `weather_model.pkl` – Trained Random Forest model
-- `scaler.pkl` – Preprocessing scaler (e.g., StandardScaler or MinMaxScaler)
-- `label_encoder.pkl` – Encodes the weather condition labels
-- Main Python Script – Your `app.py` (or similar) Streamlit code
-- Internet connection for API calls
-
-
 ##  How to Run the Project
 
 ### 1. Clone the Repository
