@@ -25,6 +25,12 @@ This project is a Streamlit-based web application that predicts current weather 
 - ARIMA (AutoRegressive Integrated Moving Average)  
   Used for time-series forecasting of numeric weather features (Temperature, Humidity, Precipitation, and Wind Speed).
 
+The confusion matrix of this model is shown below:
+
+![Confusion Matrix](confusion_matrix.jpg)
+
+> This matrix represents the classification performance of the Random Forest model on weather condition prediction.
+
 ## Tech Stack
 
 - Python
@@ -43,9 +49,20 @@ This project is a Streamlit-based web application that predicts current weather 
 - Main Python Script – Your `app.py` (or similar) Streamlit code
 - Internet connection for API calls
 
-## How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/weather-predictor.git
-   cd weather-predictor
+##  How to Run the Project
+
+### 1. Clone the Repository
+
+```
+git clone https://github.com/your-username/weather-predictor.git
+cd weather-predictor
+```
+2. Install Dependencies
+```
+pip install -r requirements.txt
+```
+3. Run the Streamlit App
+```
+streamlit run weather.py
+```
