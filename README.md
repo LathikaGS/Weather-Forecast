@@ -27,7 +27,7 @@ This project is a Streamlit-based web application that predicts current weather 
 
 The confusion matrix of this model is shown below:
 
-![Confusion Matrix](confusion matrix.jpg)
+![Confusion Matrix](confusion_matrix.jpg)
 
 > This matrix represents the classification performance of the Random Forest model on weather condition prediction.
 
